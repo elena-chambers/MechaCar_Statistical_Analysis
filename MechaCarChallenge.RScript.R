@@ -23,3 +23,11 @@ lot_summary <- mecha_coil  %>% group_by(Manufacturing_Lot) %>% summarize(Mean=me
                                                                          Median=median(PSI),
                                                                          Variance=var(PSI),
                                                                          SD=sd(PSI))
+
+# use t.test() to determine if PSI is statistically different from mean of 1500 PSI
+t.test(mecha_coil$PSI, mu=1500)
+
+# use t.test() to determine if PSI is statistically different from mean of 1500 PSI by lots using subset()
+t.test(subset(mecha_coil, Manufacturing_Lot == 'Lot1')$PSI, mu=1500)
+t.test(subset(mecha_coil, Manufacturing_Lot == 'Lot2')$PSI, mu=1500)
+t.test(subset(mecha_coil, Manufacturing_Lot == 'Lot3')$PSI, mu=1500)
