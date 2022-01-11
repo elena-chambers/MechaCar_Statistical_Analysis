@@ -19,3 +19,14 @@
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   - With an R-squared values of 0.7149, we can infer that the majority of mpg predicitions will be accurate using this linear regression.
 
+## Summary Statistics on Suspension Coils
+#### Total Summary
+<img width="335" alt="Screen Shot 2022-01-10 at 11 55 02 PM" src="https://user-images.githubusercontent.com/91163155/148888971-17cd9713-845c-4071-b9cb-ffaeb89a7ecc.png">
+
+#### Summary by Manufacturing Lot
+<img width="494" alt="Screen Shot 2022-01-10 at 11 55 09 PM" src="https://user-images.githubusercontent.com/91163155/148888978-ddf80c17-48df-4561-a51f-804e25431c83.png">
+
+- In the total summary, variance does not exceed 100 PSI variance. However when examining summary statisucs by manufacturing lot, we see that Lot 3 has PSI variance in excess of 170 PSI variance in their suspension coils. Lots 1 and 2 have significantly lower variance values (0.98 and 7.5 respecively).
+
+
+
