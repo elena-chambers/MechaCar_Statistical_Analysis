@@ -33,21 +33,25 @@
 - Lot 1 and 2 are statistically close to the PSI across all manufacturing lots at with a population mean of 1,500 pounds per square inch. Lot 3 has a much lower value, indicating problematic production in Lot 3.
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-To quantify how the MechaCar performs against the competition the folowing metrics would be useful to the consumer:
+Identify competitiveness of MechaCars versus other brand vehicals: 
+
+To quantify how the MechaCar performs against the competition the folowing metrics would be useful both to the brand and the consumer:
 - cost
 - saftey rating
 - highway fuel efficiency
 
+
 Null hypothesis: there is no statistical evidence that MechaCars perform better in terms of safety ratings, cost, and fuel efficiency than their competitors.
 Alternative hypothesis: MechaCars do perform better in terms of cost vs safety ratings and fuel efficiency than their competitors.
 
+Statistical test type: 
+- Chi-Squared test: compare make, model, and other categorical data
+- Two-sample t-Test: compare cost vs safey rating and fuel efficiency 
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Data needed: 
+- Compeditor models and car listings
+- MechaCar dataset
+
 
 
